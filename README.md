@@ -101,7 +101,7 @@ $ npm run release
 将新版本发布到npm
 
 ```bash
-$ npm publish
+$ npm publish --access=public
 ```
 
 可能需要你自己修改的地方如下：
