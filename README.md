@@ -1,4 +1,4 @@
-# [is.js](https://github.com/yanhaijing/is.js) [![](https://img.shields.io/badge/Powered%20by-jslib%20base-brightgreen.svg)](https://github.com/yanhaijing/is.js) [![npm](https://img.shields.io/badge/npm-0.1.1-orange.svg)](https://www.npmjs.com/package/@yanhaijing/is_js) [![Build Status](https://travis-ci.org/yanhaijing/is.js.svg?branch=master)](https://travis-ci.org/yanhaijing/is.js) [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/yanhaijing/is.js/blob/master/LICENSE)
+# [is.js](https://github.com/yanhaijing/is.js) [![](https://img.shields.io/badge/Powered%20by-jslib%20base-brightgreen.svg)](https://github.com/yanhaijing/is.js) [![npm](https://img.shields.io/badge/npm-0.1.0-orange.svg)](https://www.npmjs.com/package/@yanhaijing/is_js) [![Build Status](https://travis-ci.org/yanhaijing/is.js.svg?branch=master)](https://travis-ci.org/yanhaijing/is.js) [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/yanhaijing/is.js/blob/master/LICENSE)
 js判断函数，解决80%类型判断问题
 
 ## 兼容性
