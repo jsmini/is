@@ -4,7 +4,7 @@ js判断函数，解决80%类型判断问题
 ## 兼容性
 单元测试保证支持如下环境：
 
-- Node 4+
+- Node 0.10+
 - Safari 6+ (Mac)
 - iOS 5+ Safari
 - Chrome 23+ (Windows, Mac, Android, iOS, Linux, Chrome OS)
