@@ -1,4 +1,4 @@
-# [is.js](https://github.com/yanhaijing/is.js) [![](https://img.shields.io/badge/Powered%20by-jslib%20base-brightgreen.svg)](https://github.com/yanhaijing/is.js) [![npm](https://img.shields.io/badge/npm-0.1.0-orange.svg)](https://www.npmjs.com/package/@yanhaijing/is_js) [![Build Status](https://travis-ci.org/yanhaijing/is.js.svg?branch=master)](https://travis-ci.org/yanhaijing/is.js) [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/yanhaijing/is.js/blob/master/LICENSE)
+# [is.js](https://github.com/yanhaijing/is.js) [![](https://img.shields.io/badge/Powered%20by-jslib%20base-brightgreen.svg)](https://github.com/yanhaijing/jslib-base) [![npm](https://img.shields.io/badge/npm-0.1.0-orange.svg)](https://www.npmjs.com/package/@yanhaijing/is_js) [![Build Status](https://travis-ci.org/yanhaijing/is.js.svg?branch=master)](https://travis-ci.org/yanhaijing/is.js) [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/yanhaijing/is.js/blob/master/LICENSE)
 js判断函数，解决80%类型判断问题
 
 ## 兼容性
@@ -71,7 +71,7 @@ requirejs(['node_modules/@yanhaijing/is_js/dist/index.aio.js'], function (is_js)
 ```
 
 ## 文档
-[API](./doc/api.md)
+[API](https://github.com/yanhaijing/is.js/blob/master/doc/api.md)
 
 ## 贡献指南
 首次运行需要先安装依赖
@@ -112,9 +112,9 @@ $ npm publish --access=public
 - test/browser/index.html 中的仓库名称
 
 ## 更新日志
-[CHANGELOG.md](./CHANGELOG.md)
+[CHANGELOG.md](https://github.com/yanhaijing/is.js/blob/master/CHANGELOG.md)
 
 ## 计划列表
-[TODO.md](./TODO.md)
+[TODO.md](https://github.com/yanhaijing/is.js/blob/master/TODO.md)
 
 ## 谁在使用
