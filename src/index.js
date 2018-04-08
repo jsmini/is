@@ -1,4 +1,4 @@
-import { type } from '@yanhaijing/type_js';
+import { type } from '@jsmini/type';
 
 export function isNumber(x) {
     return type(x) === 'number';

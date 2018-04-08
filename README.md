@@ -1,4 +1,4 @@
-# [is.js](https://github.com/yanhaijing/is.js) [![](https://img.shields.io/badge/Powered%20by-jslib%20base-brightgreen.svg)](https://github.com/yanhaijing/jslib-base) [![npm](https://img.shields.io/badge/npm-0.3.0-orange.svg)](https://www.npmjs.com/package/@yanhaijing/is_js) [![Build Status](https://travis-ci.org/yanhaijing/is.js.svg?branch=master)](https://travis-ci.org/yanhaijing/is.js) [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/yanhaijing/is.js/blob/master/LICENSE)
+# [is](https://github.com/yanhaijing/is) [![](https://img.shields.io/badge/Powered%20by-jslib%20base-brightgreen.svg)](https://github.com/yanhaijing/jslib-base) [![npm](https://img.shields.io/badge/npm-0.3.0-orange.svg)](https://www.npmjs.com/package/@jsmini/is) [![Build Status](https://travis-ci.org/jsmini/is.svg?branch=master)](https://travis-ci.org/jsmini/is) [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jsmini/is/blob/master/LICENSE)
 js判断函数，解决80%类型判断问题，原生兼容IE6
 
 ## 兼容性
@@ -29,13 +29,13 @@ js判断函数，解决80%类型判断问题，原生兼容IE6
 通过npm下载安装代码
 
 ```bash
-$ npm install --save @yanhaijing/is_js
+$ npm install --save @jsmini/is
 ```
 
 如果你是node环境
 
 ```js
-var isNumber = require('@yanhaijing/is_js').isNumber;
+var isNumber = require('@jsmini/is').isNumber;
 
 isNumber(1) // true
 ```
@@ -43,7 +43,7 @@ isNumber(1) // true
 如果你是webpack等环境
 
 ```js
-import { isNumber } from '@yanhaijing/is_js';
+import { isNumber } from '@jsmini/is';
 
 isNumber(1) // true
 ```
@@ -51,8 +51,8 @@ isNumber(1) // true
 如果你是requirejs环境
 
 ```js
-requirejs(['node_modules/@yanhaijing/is_js/dist/index.aio.js'], function (is_js) {
-    var isNumber = is_js.isNumber;
+requirejs(['node_modules/@jsmini/is/dist/index.aio.js'], function (jsmini_is) {
+    var isNumber = jsmini_is.isNumber;
 
     isNumber(1) // true
 })
@@ -61,17 +61,17 @@ requirejs(['node_modules/@yanhaijing/is_js/dist/index.aio.js'], function (is_js)
 如果你是浏览器环境
 
 ```html
-<script src="node_modules/@yanhaijing/is_js/dist/index.aio.js"></script>
+<script src="node_modules/@jsmini/is/dist/index.aio.js"></script>
 
 <script>
-    var isNumber = is_js.isNumber;
+    var isNumber = jsmini_is.isNumber;
     
     isNumber(1) // true
 </script>
 ```
 
 ## 文档
-[API](https://github.com/yanhaijing/is.js/blob/master/doc/api.md)
+[API](https://github.com/jsmini/is/blob/master/doc/api.md)
 
 ## 贡献指南
 首次运行需要先安装依赖
@@ -112,9 +112,9 @@ $ npm publish --access=public
 - test/browser/index.html 中的仓库名称
 
 ## 更新日志
-[CHANGELOG.md](https://github.com/yanhaijing/is.js/blob/master/CHANGELOG.md)
+[CHANGELOG.md](https://github.com/jsmini/is/blob/master/CHANGELOG.md)
 
 ## 计划列表
-[TODO.md](https://github.com/yanhaijing/is.js/blob/master/TODO.md)
+[TODO.md](https://github.com/jsmini/is/blob/master/TODO.md)
 
 ## 谁在使用
