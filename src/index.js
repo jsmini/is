@@ -1,7 +1,20 @@
 import { type } from '@jsmini/type';
 
-export function isNumber(x) {
-    return type(x) === 'number';
+export function isNumber(x, min, max) {
+    min = +min;
+    max = +max;
+
+    return type(x) === 'number'
+        && (!isNaN(min) ? x >= min : true)
+        && (!isNaN(max) ? x <= max : true);
+}
+
+export function isInt(x, min, max) {
+    min = +min;
+    max = +max;
+    return parseInt(x, 10) === x
+        && (!isNaN(min) ? x >= min : true)
+        && (!isNaN(max) ? x <= max : true);
 }
 
 export function isBoolean(x) {

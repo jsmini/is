@@ -4,8 +4,18 @@
 ## isNumber
 判断是否为数字，参数和返回值如下：
 
-- @param x {任意类型} 要判断的参数
+- @param x {任意类型} required 要判断的参数
+- @param min {number} 最小值
+- @param max {number} 最大值
 - @return {Boolean} 是否为数字类型
+
+## isInt
+判断数字是否是整数，参数和返回值如下：
+
+- @param x {任意类型} required 要判断的参数
+- @param min {number} 最小值
+- @param max {number} 最大值
+- @return {Boolean} 是否为整数类型
 
 ## isBoolean
 判断是否为布尔类型，参数和返回值同上
