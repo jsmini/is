@@ -24,13 +24,22 @@ describe('单元测试', function() {
             expect(is.isNumber(1, 2)).to.equal(false);
             expect(is.isNumber(1, -1, 0)).to.equal(false);
         });
+        
+        it('isInteger', function() {
+            expect(is.isInteger(1)).to.equal(true);
+            expect(is.isInteger(1.1)).to.equal(false);
+            expect(is.isInteger(1, 0, 10)).to.equal(true);
+            expect(is.isInteger(1, 1, 1)).to.equal(true);
+            expect(is.isInteger(1, 2)).to.equal(false);
+            expect(is.isInteger(1, -1, 0)).to.equal(false);
+        });
+
         it('isInt', function() {
             expect(is.isInt(1)).to.equal(true);
-            expect(is.isInt(1.1)).to.equal(false);
-            expect(is.isNumber(1, 0, 10)).to.equal(true);
-            expect(is.isNumber(1, 1, 1)).to.equal(true);
-            expect(is.isNumber(1, 2)).to.equal(false);
-            expect(is.isNumber(1, -1, 0)).to.equal(false);
+            expect(is.isInt(-2147483648)).to.equal(true);
+            expect(is.isInt(-2147483649)).to.equal(false);
+            expect(is.isInt(2147483647)).to.equal(true);
+            expect(is.isInt(2147483648)).to.equal(false);
         });
     });
 });

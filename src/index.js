@@ -9,12 +9,17 @@ export function isNumber(x, min, max) {
         && (!isNaN(max) ? x <= max : true);
 }
 
-export function isInt(x, min, max) {
+export function isInteger(x, min, max) {
     min = +min;
     max = +max;
     return parseInt(x, 10) === x
         && (!isNaN(min) ? x >= min : true)
         && (!isNaN(max) ? x <= max : true);
+}
+
+export function isInt(x) {
+    // -2^31 ~ 2^31-1
+    return isInteger(x, -2147483648, 2147483647);
 }
 
 export function isBoolean(x) {
