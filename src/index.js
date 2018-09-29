@@ -1,20 +1,23 @@
 import { type } from '@jsmini/type';
 
-export function isNumber(x, min, max) {
+export function isInRange(x, min, max) {
+    x = +x;
     min = +min;
     max = +max;
 
-    return type(x) === 'number'
-        && (!isNaN(min) ? x >= min : true)
-        && (!isNaN(max) ? x <= max : true);
+    // x 不是数字，则返回false
+    if (isNaN(x)) return false;
+
+    // min 或 max 不传，则认为不设置下限或上限
+    return (!isNaN(min) ? x >= min : true) && (!isNaN(max) ? x <= max : true);
+}
+
+export function isNumber(x, min, max) {
+    return type(x) === 'number' && isInRange(x, min, max);
 }
 
 export function isInteger(x, min, max) {
-    min = +min;
-    max = +max;
-    return parseInt(x, 10) === x
-        && (!isNaN(min) ? x >= min : true)
-        && (!isNaN(max) ? x <= max : true);
+    return parseInt(x, 10) === x  && isInRange(x, min, max);
 }
 
 export function isInt(x) {
@@ -28,6 +31,12 @@ export function isBoolean(x) {
 
 export function isString(x) {
     return type(x) === 'string';
+}
+
+export function isEmptyString(x) {
+    if (!isString(x)) return false;
+
+    return x.replace(/(^\s*|\s*$)/g, '') === '';
 }
 
 export function isNull(x) {

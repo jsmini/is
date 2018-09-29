@@ -1,6 +1,22 @@
 # 文档
 一组类型判断函数，解决80%类型判断问题
 
+## isInRange
+判断指定的数字，是否在指定的范围内
+
+- @param {number} x 要判断的参数，如果不为数字，将返回false
+- @param {number} [min] 最小值，包含min，缺省则不会校验
+- @param {number} [max] 最大值，包含max，缺省则不会校验
+- @return {boolean} 是否包含
+
+举个例子：
+
+```js
+isInRange(1, 0, 2) // true
+isInRange(1, 1, 2) // true
+isInRange(1, 2, 3) // false
+```
+
 ## isNumber
 判断是否为数字，参数和返回值如下：
 
@@ -28,6 +44,11 @@
 
 ## isString
 判断是否为字符串类型，参数和返回值同上
+
+## isEmptyString
+判断指定参数是否是空字符串，会去掉首尾的空白字符（空格、tab、回车、换行等）
+
+参数和返回值同上
 
 ## isNull
 判断是否为null类型，参数和返回值同上

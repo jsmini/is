@@ -1,5 +1,10 @@
 # 变更日志
 
+## 0.7.0 / 2018-9-29
+
+- 新增 isInRange()
+- 新增 isEmptyString()
+
 ## 0.6.0 / 2018-9-28
 
 - isInt -> isInteger
@@ -24,11 +29,11 @@
 
 ## 0.1.0 / 2018-3-17
 
-- 实现 isNumber
-- 实现 isBoolean
-- 实现 isString
-- 实现 isNull
-- 实现 isUndefined
-- 实现 isObject
-- 实现 isFunction
-- 实现 isArray
+- 新增 isNumber()
+- 新增 isBoolean()
+- 新增 isString()
+- 新增 isNull()
+- 新增 isUndefined()
+- 新增 isObject()
+- 新增 isFunction()
+- 新增 isArray()
