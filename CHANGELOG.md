@@ -1,5 +1,9 @@
 # 变更日志
 
+## 0.7.1 / 2018-10-10
+
+- 修复 `isObject(Object.create(null))` 为`false`的错误
+
 ## 0.7.0 / 2018-9-29
 
 - 新增 isInRange()

@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "jsnext:main": "dist/index.esm.js",
   "module": "dist/index.esm.js",
+  "sideEffects": false,
   "scripts": {
     "clean": "rm -rf ./dist",
     "lint": "./node_modules/.bin/eslint -c ./config/.eslintrc.js src",
@@ -42,6 +43,6 @@
     "rollup-plugin-node-resolve": "3.0.3"
   },
   "dependencies": {
-    "@jsmini/type": "0.4.0"
+    "@jsmini/type": "0.4.1"
   }
 }

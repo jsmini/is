@@ -11,7 +11,11 @@ describe('单元测试', function() {
             expect(is.isString('')).to.equal(true);
             expect(is.isNull(null)).to.equal(true);
             expect(is.isUndefined()).to.equal(true);
+
             expect(is.isObject({})).to.equal(true);
+            expect(is.isObject(Object.create(null))).to.equal(true);
+            expect(is.isObject(Object.create({}))).to.equal(true);
+            
             expect(is.isArray([])).to.equal(true);
             expect(is.isFunction(function () {})).to.equal(true);
         });
