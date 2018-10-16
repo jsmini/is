@@ -63,6 +63,10 @@ describe('单元测试', function() {
             expect(is.isEmptyString('')).to.equal(true);
             expect(is.isEmptyString(' ')).to.equal(true);
             expect(is.isEmptyString('   ')).to.equal(true);
+            expect(
+                is.isEmptyString(`
+            `)
+            ).to.equal(true);
             expect(is.isEmptyString(' a ')).to.equal(false);
         });
     });

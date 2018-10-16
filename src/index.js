@@ -36,7 +36,7 @@ export function isString(x) {
 export function isEmptyString(x) {
     if (!isString(x)) return false;
 
-    return x.replace(/(^\s*|\s*$)/g, '') === '';
+    return /^\s*$/.test(x);
 }
 
 export function isNull(x) {
