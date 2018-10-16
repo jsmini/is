@@ -1,5 +1,9 @@
 # 变更日志
 
+## 0.7.2 / 2018-10-16
+
+- `isEmptyString` 方法使用 `RegExp.prototype.test` 替换 `replace`
+
 ## 0.7.1 / 2018-10-10
 
 - 修复 `isObject(Object.create(null))` 为`false`的错误
