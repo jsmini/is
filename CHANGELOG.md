@@ -1,7 +1,8 @@
 # 变更日志
 
-## 0.7.2 / 2018-10-16
+## 0.8.0 / 2019-3-2
 
+- 增加.d.ts文件，支持ts调用
 - `isEmptyString` 方法使用 `RegExp.prototype.test` 替换 `replace`
 
 ## 0.7.1 / 2018-10-10
