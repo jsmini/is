@@ -1,6 +1,6 @@
 {
   "name": "@jsmini/is",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "description": "js判断函数，解决80%类型判断问题",
   "main": "dist/index.js",
   "jsnext:main": "dist/index.esm.js",
@@ -43,6 +43,6 @@
     "rollup-plugin-node-resolve": "3.0.3"
   },
   "dependencies": {
-    "@jsmini/type": "0.4.1"
+    "@jsmini/type": "^0.7.0"
   }
 }
