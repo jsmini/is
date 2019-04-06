@@ -31,36 +31,44 @@ unit test ensure it supports the following environments.
 npm installation
 
 ```bash
-$ npm install --save @jsmini/clone
+$ npm install --save @jsmini/is
 ```
 
 Node.js
 
 ```js
-var name = require('@jsmini/clone').name;
+var isNumber = require('@jsmini/is').isNumber;
+
+isNumber(1) // true
 ```
 
 webpack
 
 ```js
-import { name } from '@jsmini/clone';
+import { isNumber } from '@jsmini/is';
+
+isNumber(1) // true
 ```
 
 Require.js
 
 ```js
-requirejs(['node_modules/@jsmini/clone/dist/index.aio.js'], function (jsmini_clone) {
-    var name = jsmini_clone.name;
+requirejs(['node_modules/@jsmini/is/dist/index.aio.js'], function (jsmini_is) {
+    var isNumber = jsmini_is.isNumber;
+
+    isNumber(1) // true
 })
 ```
 
 Browser
 
 ```html
-<script src="node_modules/@jsmini/clone/dist/index.aio.js"></script>
+<script src="node_modules/@jsmini/is/dist/index.aio.js"></script>
 
 <script>
-    var name = jsmini_clone.name;
+    var isNumber = jsmini_is.isNumber;
+    
+    isNumber(1) // true
 </script>
 ```
 
@@ -99,7 +107,7 @@ publish the new package to npm
 $ npm publish --access=public
 ```
 
-rename  project. you need to edit project name when initialize project or anytime you want to rename the project . you need to rename `formName` and `toname` in file `rename.js`,which will automatically rename project name in the following files
+  Maybe you should change relative information in the follow files
 
 - README.md
 - package.json
@@ -111,12 +119,13 @@ $ npm run rename # rename command
 ```
 
 ## Contributors
-[contributors](https://github.com/jsmini/clone/graphs/contributors)
+
+[contributors](<https://github.com/jsmini/is/graphs/contributors>)
 
 ## CHANGELOG
-[CHANGELOG.md](https://github.com/jsmini/clone/blob/master/CHANGELOG.md)
+[CHANGELOG.md](https://github.com/jsmini/is/blob/master/CHANGELOG.md)
 
 ## TODO
-[TODO.md](https://github.com/jsmini/clone/blob/master/TODO.md)
+[TODO.md](https://github.com/jsmini/is/blob/master/TODO.md)
 
 ## who is using
