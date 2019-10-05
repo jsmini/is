@@ -1,6 +1,6 @@
 {
   "name": "@jsmini/is",
-  "version": "0.8.3",
+  "version": "0.8.4",
   "description": "js判断函数，解决80%类型判断问题",
   "main": "dist/index.js",
   "jsnext:main": "dist/index.esm.js",
@@ -58,7 +58,7 @@
     "source-map-support": "0.5.9"
   },
   "dependencies": {
-    "@jsmini/type": "^0.8.0",
+    "@jsmini/type": "^0.9.1",
     "@babel/runtime": "^7.1.2"
   },
   "files": [
