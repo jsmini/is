@@ -1,6 +1,6 @@
 {
   "name": "@jsmini/is",
-  "version": "0.8.2",
+  "version": "0.8.3",
   "description": "js判断函数，解决80%类型判断问题",
   "main": "dist/index.js",
   "jsnext:main": "dist/index.esm.js",
