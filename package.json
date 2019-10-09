@@ -1,6 +1,6 @@
 {
   "name": "@jsmini/is",
-  "version": "0.8.4",
+  "version": "0.8.5",
   "description": "js判断函数，解决80%类型判断问题",
   "main": "dist/index.js",
   "jsnext:main": "dist/index.esm.js",
@@ -34,7 +34,7 @@
     "is.js"
   ],
   "devDependencies": {
-    "@js-lib/cli": "^1.4.0",
+    "@js-lib/cli": "^1.4.2",
     "babel-core": "6.26.0",
     "babel-preset-env": "1.6.1",
     "es5-shim": "4.5.10",
@@ -63,7 +63,8 @@
     "@babel/runtime": "^7.1.2"
   },
   "files": [
-    "/dist"
+    "/dist",
+    "*.d.ts"
   ],
   "engines": {
     "node": ">= 0.12.0"
