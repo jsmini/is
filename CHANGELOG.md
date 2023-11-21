@@ -5,7 +5,7 @@
 - 升级 jslib-base 2.3.2
 - 支持 sourceMap
 - 升级 @jsmini/type 0.11.0
-- fix: 支持 node >=14.0.0
+- fix: 支持 node >= 14.0.0
 
 ## 0.9.0 / 2023-9-24
 
